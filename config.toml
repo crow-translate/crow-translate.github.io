@@ -5,6 +5,7 @@ theme = "juice"
 
 [markdown]
 highlight_code = true
+highlight_theme = "ir-white"
 
 [extra]
 juice_logo_name = "Crow Translate"
