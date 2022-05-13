@@ -1,6 +1,5 @@
 +++
 title = "Crow Translate"
-sort_by = "weight"
 +++
 
 Crow Translate is a simple and lightweight translator written in C++ / Qt that allows you to translate and speak text using Google, Yandex, Bing, LibreTranslate and Lingva translate API.
