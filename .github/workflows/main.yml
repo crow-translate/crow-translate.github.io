@@ -11,12 +11,12 @@ jobs:
     if: github.ref != 'refs/heads/master'
     steps:
       - name: Clone repo
-        uses: actions/checkout@v3.0.2
+        uses: actions/checkout@v3
         with:
           submodules: recursive
 
       - name: Build
-        uses: shalzz/zola-deploy-action@v0.15.3 
+        uses: shalzz/zola-deploy-action@v0.15.3
         env:
           BUILD_ONLY: true
           BUILD_FLAGS: --drafts
@@ -28,12 +28,12 @@ jobs:
     if: github.ref == 'refs/heads/master'
     steps:
       - name: Clone repo
-        uses: actions/checkout@v3.0.2
+        uses: actions/checkout@v3
         with:
           submodules: recursive
 
       - name: Deploy
-        uses: shalzz/zola-deploy-action@v0.15.3 
+        uses: shalzz/zola-deploy-action@v0.15.3
         env:
           PAGES_BRANCH: gh-pages
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
