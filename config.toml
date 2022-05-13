@@ -1,0 +1,17 @@
+base_url = "https://crow-translate.github.io"
+compile_sass = true
+build_search_index = false
+theme = "juice"
+
+[markdown]
+highlight_code = true
+
+[extra]
+juice_logo_name = "Crow Translate"
+juice_logo_path = "favicon.svg"
+juice_extra_menu = [
+  { title = "Changelog", link = "https://github.com/crow-translate/crow-translate/releases" },
+  { title = "Localization", link = "https://crowdin.com/project/crow-translate" },
+  { title = "Github", link = "https://github.com/crow-translate/crow-translate" },
+]
+repository_url = "https://github.com/crow-translate/crow-translate"

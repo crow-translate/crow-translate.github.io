@@ -1,0 +1,30 @@
+{% extends "juice/templates/index.html" %}
+
+{% block favicon %}
+    <link rel="icon" type="image/png" href="/favicon.svg">
+{% endblock favicon %}
+
+{% block hero %}
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<section class="text-center welcome">
+  <h1 class="heading-text" style="font-size: 50px">Crow Translate</h1>
+  <h3 class="title-text">
+    A simple and lightweight translator
+  </h3>
+  <p>
+    <a class="github-button" href="https://github.com/crow-translate/crow-translate" data-size="large" data-show-count="true" aria-label="Star on GitHub">Star</a>
+    <a class="github-button" href="https://github.com/crow-translate/crow-translate/fork" data-size="large" data-show-count="false" aria-label="Fork on GitHub">Fork</a>
+  </p>
+</section>
+<img class="hero-image" src="{{ get_url(path="screenshots/plasma/main.png") }}">
+
+<div
+  class="explore-more text"
+  onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})"
+>Learn More ⇣</div>
+{% endblock %}
+
+{% block footer %}
+<footer>
+</footer>
+{% endblock footer %}

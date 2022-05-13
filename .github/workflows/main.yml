@@ -1,0 +1,39 @@
+name: Zola on GitHub Pages
+on:
+  push:
+    branches:
+      - main 
+  pull_request:
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    if: github.ref != 'refs/heads/main'
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@v3.0.0
+        with:
+          submodules: recursive
+
+      - name: Build
+        uses: shalzz/zola-deploy-action@master
+        env:
+          BUILD_ONLY: true
+          BUILD_FLAGS: --drafts
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@v3.0.0
+        with:
+          submodules: recursive
+
+      - name: Deploy
+        uses: shalzz/zola-deploy-action@master
+        env:
+          PAGES_BRANCH: gh-pages
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
