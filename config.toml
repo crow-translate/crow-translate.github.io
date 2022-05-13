@@ -9,7 +9,7 @@ highlight_theme = "ir-white"
 
 [extra]
 juice_logo_name = "Crow Translate"
-juice_logo_path = "favicon.svg"
+juice_logo_path = "favicon.png"
 juice_extra_menu = [
   { title = "Changelog", link = "https://github.com/crow-translate/crow-translate/releases" },
   { title = "Localization", link = "https://crowdin.com/project/crow-translate" },
