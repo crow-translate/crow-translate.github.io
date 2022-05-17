@@ -48,7 +48,7 @@ cd crow-translate-git
 makepkg -si
 ```
 
-📦 [Chaotic-AUR repository](https://lonewolf.pedrohlc.com/chaotic-aur)
+📦 [Chaotic-AUR repository](https://aur.chaotic.cx/)
 
 ```bash
 sudo pacman -S crow-translate
