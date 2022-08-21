@@ -1,4 +1,5 @@
 base_url = "https://crow-translate.github.io"
+title = "Crow Translate"
 compile_sass = false
 build_search_index = false
 theme = "juice"
