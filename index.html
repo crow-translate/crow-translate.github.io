@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crow Translate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+  <link rel="icon" type="image/png" href="/favicon.png">
+
+     <style>
+    :root {
+        /* Primary theme color */
+        --primary-color: #bfbfbf;
+        /* Primary theme text color */
+        --primary-text-color: #313131;
+        /* Primary theme link color */
+        --primary-link-color: #4c79af;
+        /* Secondary color: the background body color */
+        --secondary-color: #fcfaf6;
+        --secondary-text-color: #303030;
+        /* Highlight text color of table of content */
+        --toc-highlight-text-color: #72af4c;
+    }
+</style>
+
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="https://crow-translate.github.io/juice.css">
+    
+    
+</head>
+
+<body>
+    
+
+    <header class="pos-absolute" style="background-color: transparent">
+        
+
+<a href="https:&#x2F;&#x2F;crow-translate.github.io&#x2F;">
+    <div class="logo">
+        <img src="https://crow-translate.github.io/favicon.png" alt="logo">
+        Crow Translate
+    </div>
+</a>
+
+<nav>
+    
+    <a class="nav-item subtitle-text" href="https:&#x2F;&#x2F;crow-translate.github.io&#x2F;screenshots&#x2F;">Screenshots</a>
+    
+    
+        
+        <a class="nav-item subtitle-text" href="https:&#x2F;&#x2F;github.com&#x2F;crow-translate&#x2F;crow-translate&#x2F;releases">Changelog</a>
+        
+        <a class="nav-item subtitle-text" href="https:&#x2F;&#x2F;crowdin.com&#x2F;project&#x2F;crow-translate">Localization</a>
+        
+        <a class="nav-item subtitle-text" href="https:&#x2F;&#x2F;github.com&#x2F;crow-translate&#x2F;crow-translate">Github</a>
+        
+    
+</nav>
+
+    </header>
+
+    <div class="hero">
+        
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<section class="text-center welcome">
+  <h1 class="heading-text" style="font-size: 50px">Crow Translate</h1>
+  <h3 class="title-text">
+    A simple and lightweight translator
+  </h3>
+  <p>
+    <a class="github-button" href="https://github.com/crow-translate/crow-translate" data-size="large" data-show-count="true" aria-label="Star on GitHub">Star</a>
+    <a class="github-button" href="https://github.com/crow-translate/crow-translate/fork" data-size="large" data-show-count="false" aria-label="Fork on GitHub">Fork</a>
+  </p>
+</section>
+<img class="hero-image" src="https://crow-translate.github.io/screenshots/plasma/main.png">
+
+<div
+  class="explore-more text"
+  onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})"
+>Learn More ⇣</div>
+
+    </div>
+
+    
+
+    <main>
+        
+        
+        
+        
+        
+        <div class="toc">
+            <div class="toc-sticky">
+                
+                <div class="toc-item">
+                    <a class="subtext" href="https://crow-translate.github.io/#features">Features</a>
+                </div>
+                
+                
+                <div class="toc-item">
+                    <a class="subtext" href="https://crow-translate.github.io/#installation">Installation</a>
+                </div>
+                
+                
+                <div class="toc-item-child">
+                    <a class="subtext" href="https://crow-translate.github.io/#windows"><small>- Windows</small></a>
+                </div>
+                
+                <div class="toc-item-child">
+                    <a class="subtext" href="https://crow-translate.github.io/#linux"><small>- Linux</small></a>
+                </div>
+                
+                
+                
+                <div class="toc-item">
+                    <a class="subtext" href="https://crow-translate.github.io/#default-keyboard-shortcuts">Default keyboard shortcuts</a>
+                </div>
+                
+                
+                <div class="toc-item-child">
+                    <a class="subtext" href="https://crow-translate.github.io/#global"><small>- Global</small></a>
+                </div>
+                
+                <div class="toc-item-child">
+                    <a class="subtext" href="https://crow-translate.github.io/#in-main-window"><small>- In main window</small></a>
+                </div>
+                
+                
+                
+                <div class="toc-item">
+                    <a class="subtext" href="https://crow-translate.github.io/#cli-commands">CLI commands</a>
+                </div>
+                
+                
+                <div class="toc-item">
+                    <a class="subtext" href="https://crow-translate.github.io/#d-bus-api">D-Bus API</a>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        
+
+        <div class="content text">
+            
+            <div id="features" class="heading-text">Overview</div>
+            <p>Crow Translate is a simple and lightweight translator written in C++ / Qt that allows you to translate and speak text using Google, Yandex, Bing, LibreTranslate and Lingva translate API.</p>
+<h1 id="features">Features</h1>
+<ul>
+<li>Translate and speak text from screen or selection</li>
+<li>Support 125 different languages</li>
+<li>Low memory consumption (~20MB)</li>
+<li>Highly customizable shortcuts</li>
+<li>Command-line interface with rich options</li>
+<li>D-Bus API</li>
+<li>Available for Linux and Windows</li>
+</ul>
+<h1 id="installation">Installation</h1>
+<h2 id="windows">Windows</h2>
+<p>🌐 Installer from the <a href="https://github.com/crow-translate/crow-translate/releases/latest">Releases</a> page.</p>
+<p>📦 <a href="https://github.com/lukesampson/scoop-extras/blob/master/bucket/crow-translate.json">Scoop package</a></p>
+<pre data-lang="bash" style="background-color:#ffffff;color:#010101;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#696989;">sudo</span><span> scoop install crow-translate</span><span style="color:#696989;"> -g
+</span></code></pre>
+<p><strong>Note:</strong> Windows requires <a href="https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0">Microsoft Visual C++ Redistributable 2019</a> to work.</p>
+<h2 id="linux">Linux</h2>
+<h3 id="arch-linux-manjaro-chakra-etc">Arch Linux, Manjaro, Chakra, etc</h3>
+<p>📦 <a href="https://aur.archlinux.org/packages/crow-translate">Stable version in AUR</a></p>
+<pre data-lang="bash" style="background-color:#ffffff;color:#010101;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#696989;">git</span><span> clone https://aur.archlinux.org/crow-translate.git
+</span><span style="color:#7a7025;">cd</span><span> crow-translate
+</span><span style="color:#696989;">makepkg -si
+</span></code></pre>
+<p>📦 <a href="https://aur.archlinux.org/packages/crow-translate-git">Git version in AUR</a></p>
+<pre data-lang="bash" style="background-color:#ffffff;color:#010101;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#696989;">git</span><span> clone https://aur.archlinux.org/crow-translate-git.git
+</span><span style="color:#7a7025;">cd</span><span> crow-translate-git
+</span><span style="color:#696989;">makepkg -si
+</span></code></pre>
+<p>📦 <a href="https://aur.chaotic.cx/">Chaotic-AUR repository</a></p>
+<pre data-lang="bash" style="background-color:#ffffff;color:#010101;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#696989;">sudo</span><span> pacman</span><span style="color:#696989;"> -S</span><span> crow-translate
+</span></code></pre>
+<h3 id="ubuntu-linux-mint-kde-neon-etc">Ubuntu, Linux Mint, KDE Neon, etc</h3>
+<p>🌐 Package the <a href="https://github.com/crow-translate/crow-translate/releases/latest">Releases</a> page.</p>
+<p>📦 <a href="https://launchpad.net/~jonmagon/+archive/ubuntu/crow-translate">Launchpad PPA</a></p>
+<pre data-lang="bash" style="background-color:#ffffff;color:#010101;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#696989;">sudo</span><span> add-apt-repository ppa:jonmagon/crow-translate
+</span><span style="color:#696989;">sudo</span><span> apt update
+</span><span style="color:#696989;">sudo</span><span> apt install crow-translate
+</span></code></pre>
+<h3 id="fedora">Fedora</h3>
+<p>🌐 Package the <a href="https://github.com/crow-translate/crow-translate/releases/latest">Releases</a> page.</p>
+<p>📦 <a href="https://copr.fedorainfracloud.org/coprs/carlis/crow-translate">Fedora Copr</a></p>
+<pre data-lang="bash" style="background-color:#ffffff;color:#010101;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#696989;">sudo</span><span> dnf copr enable carlis/crow-translate
+</span><span style="color:#696989;">sudo</span><span> dnf install crow-translate
+</span></code></pre>
+<h3 id="centos-rhel">CentOS, RHEL</h3>
+<p>📦 <a href="https://copr.fedorainfracloud.org/coprs/carlis/crow-translate">Fedora Copr</a></p>
+<pre data-lang="bash" style="background-color:#ffffff;color:#010101;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#696989;">sudo</span><span> yum copr enable carlis/crow-translate
+</span><span style="color:#696989;">sudo</span><span> yum install crow-translate
+</span></code></pre>
+<h3 id="mageia-7">Mageia 7</h3>
+<p>📦 <a href="http://ftp.blogdrake.net">BlogDrake repository</a></p>
+<pre data-lang="bash" style="background-color:#ffffff;color:#010101;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#898989;"># With urpmi
+</span><span style="color:#696989;">sudo</span><span> urpmi urpmi.addmedia</span><span style="color:#696989;"> --wget --distrib</span><span> http://ftp.blogdrake.net/mageia/mageia7/x86_64 </span><span style="color:#898989;"># Or i586
+</span><span style="color:#696989;">sudo</span><span> urpmi crow-translate
+</span><span>
+</span><span style="color:#898989;"># Or with dnf
+</span><span style="color:#696989;">sudo</span><span> dnf config-manager</span><span style="color:#696989;"> --add-repo</span><span> http://ftp.blogdrake.net/mageia/BDK.repo
+</span><span style="color:#696989;">sudo</span><span> dnf install crow-translate
+</span></code></pre>
+<h3 id="opensuse-tumbleweed">openSUSE Tumbleweed</h3>
+<p>📦 <a href="https://software.opensuse.org/package/crow-translate">Tumbleweed repository</a></p>
+<pre data-lang="bash" style="background-color:#ffffff;color:#010101;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#696989;">sudo</span><span> zypper install crow-translate
+</span></code></pre>
+<h3 id="opensuse-leap">openSUSE Leap</h3>
+<p>📦 <a href="https://software.opensuse.org/package/crow-translate">Open Build Service</a></p>
+<h3 id="solus">Solus</h3>
+<p>📦 <a href="https://dev.getsol.us/source/crow-translate">Solus repository</a></p>
+<pre data-lang="bash" style="background-color:#ffffff;color:#010101;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#696989;">sudo</span><span> eopkg it crow-translate
+</span></code></pre>
+<h3 id="flatpak">Flatpak</h3>
+<p>📦 <a href="https://flathub.org/apps/details/io.crow_translate.CrowTranslate">Flathub</a></p>
+<pre data-lang="bash" style="background-color:#ffffff;color:#010101;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#696989;">flatpak</span><span> install flathub io.crow_translate.CrowTranslate
+</span></code></pre>
+<p><strong>Note:</strong> To make the application look native on a non-KDE desktop environment, you need to configure Qt applications styling. This can be done by using <a href="https://github.com/RomanVolak/qt5ct">qt5ct</a> or <a href="https://github.com/FedoraQt/adwaita-qt">adwaita-qt5</a> or <a href="https://github.com/qt/qtstyleplugins">qtstyleplugins</a>. Please check the appropriate installation guide for your distribution.</p>
+<h1 id="default-keyboard-shortcuts">Default keyboard shortcuts</h1>
+<p>You can change them in the settings. Some key sequences may not be available due to OS limitations.</p>
+<p>Wayland does not support global shortcuts registration, but you can use <a href="https://crow-translate.github.io/#d-bus-api">D-Bus</a> to bind actions in the system settings. For desktop environments that support <a href="https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#extra-actions">additional applications actions</a> (KDE, for example) you will see them predefined in the system shortcut settings. You can also use them for X11 sessions, but you need to disable global shortcuts registration in the application settings to avoid conflicts.</p>
+<h2 id="global">Global</h2>
+<table><thead><tr><th>Key</th><th>Description</th></tr></thead><tbody>
+<tr><td><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>E</kbd></td><td>Translate selected text</td></tr>
+<tr><td><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd></td><td>Speak selected text</td></tr>
+<tr><td><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd></td><td>Speak translation of selected text</td></tr>
+<tr><td><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>G</kbd></td><td>Stop speaking</td></tr>
+<tr><td><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>C</kbd></td><td>Show main window</td></tr>
+<tr><td><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd></td><td>Recognize text in screen area</td></tr>
+<tr><td><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>O</kbd></td><td>Translate text in screen area</td></tr>
+</tbody></table>
+<h2 id="in-main-window">In main window</h2>
+<table><thead><tr><th>Key</th><th>Description</th></tr></thead><tbody>
+<tr><td><kbd>Ctrl</kbd> + <kbd>Return</kbd></td><td>Translate</td></tr>
+<tr><td><kbd>Ctrl</kbd> + <kbd>R</kbd></td><td>Swap languages</td></tr>
+<tr><td><kbd>Ctrl</kbd> + <kbd>Q</kbd></td><td>Close window</td></tr>
+<tr><td><kbd>Ctrl</kbd> + <kbd>S</kbd></td><td>Speak source / pause text speaking</td></tr>
+<tr><td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd></td><td>Speak translation / pause text speaking</td></tr>
+<tr><td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd></td><td>Copy translation to clipboard</td></tr>
+</tbody></table>
+<h1 id="cli-commands">CLI commands</h1>
+<p>The program also has a console interface.</p>
+<p><strong>Usage:</strong> <code>crow [options] text</code></p>
+<table><thead><tr><th>Option</th><th>Description</th></tr></thead><tbody>
+<tr><td><code>-h, --help</code></td><td>Display help</td></tr>
+<tr><td><code>-v, --version</code></td><td>Display version information</td></tr>
+<tr><td><code>-c, --codes</code></td><td>Display language codes</td></tr>
+<tr><td><code>-s, --source &lt;code&gt;</code></td><td>Specify the source language (by default, engine will try to determine the language on its own)</td></tr>
+<tr><td><code>-t, --translation &lt;code&gt;</code></td><td>Specify the translation language(s), splitted by '+' (by default, the system language is used)</td></tr>
+<tr><td><code>-l, --locale &lt;code&gt;</code></td><td>Specify the translator language (by default, the system language is used)</td></tr>
+<tr><td><code>-e, --engine &lt;engine&gt;</code></td><td>Specify the translator engine ('google', 'yandex', 'bing', 'libretranslate' or 'lingva'), Google is used by default</td></tr>
+<tr><td><code>-p, --speak-translation</code></td><td>Speak the translation</td></tr>
+<tr><td><code>-u, --speak-source</code></td><td>Speak the source</td></tr>
+<tr><td><code>-f, --file</code></td><td>Read source text from files. Arguments will be interpreted as file paths</td></tr>
+<tr><td><code>-i, --stdin</code></td><td>Add stdin data to source text</td></tr>
+<tr><td><code>-a, --audio-only</code></td><td>Print text only for speaking when using <code>--speak-translation</code> or <code>--speak-source</code></td></tr>
+<tr><td><code>-b, --brief</code></td><td>Print only translations</td></tr>
+<tr><td><code>-j, --json</code></td><td>Print output formatted as JSON</td></tr>
+</tbody></table>
+<p><strong>Note:</strong> If you do not pass startup arguments to the program, the GUI starts.</p>
+<h1 id="d-bus-api">D-Bus API</h1>
+<pre style="background-color:#ffffff;color:#010101;"><code><span>io.crow_translate.CrowTranslate
+</span><span>├── /io/crow_translate/CrowTranslate/Ocr
+</span><span>|   └── method void io.crow_translate.CrowTranslate.Ocr.setParameters(QVariantMap parameters);
+</span><span>└── /io/crow_translate/CrowTranslate/MainWindow
+</span><span>    |   # Global shortcuts
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection();
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.speakSelection();
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.speakTranslatedSelection();
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.playPauseSpeaking();
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking();
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.open();
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection();
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.recognizeScreenArea();
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.translateScreenArea();
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.delayedRecognizeScreenArea();
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.delayedTranslateScreenArea();
+</span><span>    |   # Main window shortcuts
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.clearText();
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.cancelOperation();
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.swapLanguages();
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.openSettings();
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.setAutoTranslateEnabled(bool enabled);
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.copySourceText();
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslation();
+</span><span>    ├── method void io.crow_translate.CrowTranslate.MainWindow.copyAllTranslationInfo();
+</span><span>    └── method void io.crow_translate.CrowTranslate.MainWindow.quit();
+</span></code></pre>
+<p>For example, you can show main window using <code>dbus-send</code>:</p>
+<pre data-lang="bash" style="background-color:#ffffff;color:#010101;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#696989;">dbus-send --type</span><span style="color:#016692;">=</span><span>method_call</span><span style="color:#696989;"> --dest</span><span style="color:#016692;">=</span><span>io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open
+</span></code></pre>
+<p>Or via <code>qdbus</code>:</p>
+<pre data-lang="bash" style="background-color:#ffffff;color:#010101;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#696989;">qdbus</span><span> io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open
+</span><span style="color:#898989;"># or shorter
+</span><span style="color:#696989;">qdbus</span><span> io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow open
+</span></code></pre>
+
+            
+        </div>
+
+        
+        
+    </main>
+
+    
+<footer>
+  <small class="subtext text-center">Hennadii Chernyshchyk © 2018-2023</small>
+</footer>
+
+</body>
+<script>
+    function highlightNav(heading) {
+        let pathname = location.pathname;
+        document.querySelectorAll(".toc a").forEach((item) => {
+            item.classList.remove("active");
+        });
+        document.querySelector(".toc a[href$='" + pathname + "#" + heading + "']").classList.add("active");
+    }
+
+    let currentHeading = "";
+    window.onscroll = function () {
+        let h = document.querySelectorAll("h1,h2,h3,h4,h5,h6");
+        let elementArr = [];
+
+        h.forEach(item => {
+            if (item.id !== "") {
+                elementArr[item.id] = item.getBoundingClientRect().top;
+            }
+        });
+        elementArr.sort();
+        for (let key in elementArr) {
+            if (!elementArr.hasOwnProperty(key)) {
+                continue;
+            }
+            if (elementArr[key] > 0 && elementArr[key] < 300) {
+                if (currentHeading !== key) {
+                    highlightNav(key);
+                    currentHeading = key;
+                }
+                break;
+            }
+        }
+    }
+</script>
+
+</html>
