@@ -16,7 +16,7 @@ jobs:
           submodules: recursive
 
       - name: Build
-        uses: shalzz/zola-deploy-action@v0.15.3
+        uses: shalzz/zola-deploy-action@v0.17.2
         env:
           BUILD_ONLY: true
           BUILD_FLAGS: --drafts
